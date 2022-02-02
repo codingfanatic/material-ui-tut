@@ -12,7 +12,6 @@ export default function Create() {
       >
         Create a New Note
       </Typography>
-
       <Button type="submit">Submit</Button>
     </div>
   )
