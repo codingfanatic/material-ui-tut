@@ -6,7 +6,8 @@ import Container from '@material-ui/core/Container'
 
 export default function Create() {
   return (
-    <Container size="sm">
+    <Container size="sm"> 
+    {/* Container wraps children widgets into a container with padding in the margins*/}
       <Typography
         variant="h6" 
         color="textSecondary"
@@ -24,12 +25,11 @@ export default function Create() {
         Submit
       </Button>
 
-      <br />
-
       <Button type="submit" color="secondary" variant="outlined">Submit</Button>
       <Button type="submit" color="default">Submit</Button>
       
       <ButtonGroup color="secondary" variant="contained" disableElevation>
+        {/* ButtonGroup groups buttons into a row or column */}
         <Button>One</Button>
         <Button>Two</Button>
         <Button>Three</Button>
